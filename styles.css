@@ -5,17 +5,86 @@
 }
 
 @font-face {
-  font-family: "Kannada Sangam MN";
-  src: URL(./assets/Kannada\Sangam\MN.ttf) format("truetype");
+  font-family: "kannada";
+  src: url("./assets/font/Kannada\ Sangam\ MN.eot");
+  src: url("./assets/font/Kannada\ Sangam\ MN.woff2") format("woff2"),
+    url("./assets/font/KannadaSangamMN.woff") format("woff"),
+    url("./assets/font/Kannada\ Sangam\ MN.ttf") format("truetype"),
+    url("./assets/font/KannadaSangamMN.svg") format("svg"),
+    url("./assets/font/Kannada\ Sangam\ MN.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-  background-color: #090a0f;
+  background-color: #000000;
   color: #d0dcfb;
-  padding: 4%;
-  font-family: "Kannada Sangam MN";
+  font-family: "kannada";
+  width: 800px;
+  margin: auto;
+  text-transform: lowercase;
+  font-weight: 400;
 }
 
 header {
   display: flex;
+  justify-content: space-evenly;
+  height: 340px;
+}
+
+header .flower {
+  height: 212px;
+  transform: rotate(180deg);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.title .hero {
+  width: 466px;
+}
+
+main .description {
+  margin-bottom: 17px;
+  font-size: 22px;
+}
+
+main h2 {
+  text-decoration: underline;
+}
+
+main h3 {
+  margin-top: 17px;
+  text-decoration: underline;
+}
+
+main ol {
+  list-style: decimal-leading-zero inside;
+}
+
+main ul {
+  list-style: none inside;
+}
+
+footer {
+  margin: 17px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .social {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.social img {
+  height: 46px;
+  margin-bottom: 17px;
 }

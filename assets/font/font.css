@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Kannada Sangam MN';
+  src: url('Kannada Sangam MN.eot');
+  src: url('Kannada Sangam MN.eot?#iefix') format('embedded-opentype'),
+       url('Kannada Sangam MN.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KannadaSangamMN';
+  src: url('KannadaSangamMN.svg#KannadaSangamMN') format('svg'),
+       url('KannadaSangamMN.ttf') format('truetype'),
+       url('KannadaSangamMN.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
