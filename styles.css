@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Kannada Sangam MN";
+  src: URL(./assets/Kannada\Sangam\MN.ttf) format("truetype");
+}
+
+body {
+  background-color: #090a0f;
+  color: #d0dcfb;
+  padding: 4%;
+  font-family: "Kannada Sangam MN";
+}
+
+header {
+  display: flex;
+}
