@@ -95,6 +95,7 @@ footer .social {
 
 .lotus img {
   width: calc((100vw - 800px) / 2);
+  max-width: 240px;
 }
 
 .lotus-right {
