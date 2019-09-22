@@ -32,10 +32,6 @@ header {
   height: 340px;
 }
 
-header .flower {
-  height: 212px;
-  transform: rotate(180deg);
-}
 
 .title {
   display: flex;
@@ -89,6 +85,27 @@ footer .social {
   margin-bottom: 17px;
 }
 
+.lotus {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  bottom: 0;
+  margin-top: calc((100vw - 800px) / -2);
+}
+
+.lotus img {
+  width: calc((100vw - 800px) / 2);
+}
+
+.lotus-right {
+  margin-left: calc((100vw - 800px) / -2);
+  transform: scaleX(-1);
+}
+
+.lotus-left {
+  margin-right: calc((100vw - 800px) / -2);
+}
+
 @media only screen and (max-device-width: 600px) {
   header {
     height: auto;
@@ -98,11 +115,11 @@ footer .social {
     font-size: 124px;
   }
 
-  header .flower {
-    display: none;
-  }
-
   header .title .hero {
     width: 100%;
+  }
+
+  .lotus {
+    display: none;
   }
 }
