@@ -88,23 +88,15 @@ footer .social {
 .lotus {
   display: flex;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
   bottom: 0;
-  margin-top: calc((100vw - 800px) / -2);
+  left:0;
+  width: 100%;
 }
 
 .lotus img {
   width: calc((100vw - 800px) / 2);
   max-width: 240px;
-}
-
-.lotus-right {
-  margin-left: calc((100vw - 800px) / -2);
-  transform: scaleX(-1);
-}
-
-.lotus-left {
-  margin-right: calc((100vw - 800px) / -2);
 }
 
 @media only screen and (max-device-width: 600px) {
